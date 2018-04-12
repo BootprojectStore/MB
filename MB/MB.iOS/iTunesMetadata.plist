@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>companyName</key>
+    <string>Multibutiken AB.</string>
+    <key>bundleDisplayName</key>
+    <string>Multibutiken</string>
+    <key>bundleShortVersionString</key>
+    <string>1.5.1</string>
+    <key>bundleVersion</key>
+    <string>1.5.1</string>
+    <key>copyright</key>
+    <string>© 2018 Multibutiken AB.</string>
+    <key>drmVersionNumber</key>
+    <integer>0</integer>
+    <key>fileExtension</key>
+    <string>.app</string>
+  </dict>
+</plist>

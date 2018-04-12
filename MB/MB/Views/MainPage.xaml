@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MB"
+             xmlns:views="clr-namespace:MB.Views"
+             x:Class="MB.Views.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ContentView Padding="0,0,0,0" VerticalOptions="FillAndExpand">
+                <Image Source="Default.png" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+            </ContentView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

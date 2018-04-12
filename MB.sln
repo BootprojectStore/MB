@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.iOS", "MB\MB.iOS\MB.iOS.csproj", "{39FA701E-5AF1-4F02-9AF7-8085F16645BC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MB", "MB\MB\MB.shproj", "{0A5AF39F-37EC-48F1-845E-8E0C7B85F518}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MB\MB\MB.projitems*{0a5af39f-37ec-48f1-845e-8e0c7b85f518}*SharedItemsImports = 13
+		MB\MB\MB.projitems*{39fa701e-5af1-4f02-9af7-8085f16645bc}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Debug|iPhone.Build.0 = Debug|iPhone
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Release|iPhone.ActiveCfg = Release|iPhone
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Release|iPhone.Build.0 = Release|iPhone
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{39FA701E-5AF1-4F02-9AF7-8085F16645BC}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4567367-CAA2-48DC-B15F-C4168CC9956D}
+	EndGlobalSection
+EndGlobal
