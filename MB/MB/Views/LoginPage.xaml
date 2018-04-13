@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MB.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Start" Padding="40,0,40,0">
+            <Image Source="Icon-60@2x.png" Margin="0,0,0,0" HeightRequest="120" WidthRequest="120"/>
+            <Label Text="HANDLA SMART" FontFamily="Oswald" FontSize="32" VerticalOptions="Center" TextColor="LightBlue" FontAttributes="Bold"/>
+            <Label Text="" HeightRequest="20"/>
+            <Label Text="Login to Multibutiken AB. Enter your credentials and click login." FontSize="Small" HeightRequest="70" />
+            <Label Text="User ID" FontSize="Large" />
+            <Entry x:Name="usernameEntry" Keyboard="Numeric" HeightRequest="60" />
+            <Label Text="Pin" FontSize="Large" />
+            <Entry x:Name="passwordEntry" IsPassword="true" Keyboard="Numeric" HeightRequest="60" />
+            <Button Text="Login" x:Name="LoginBtn" FontSize="Large" Clicked="Login_Clicked" VerticalOptions="End" />
+            <Label x:Name="messageLabel" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

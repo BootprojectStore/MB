@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using MB.Views;
 
 using Xamarin.Forms;
 
@@ -16,8 +17,10 @@ namespace MB
 		{
 			InitializeComponent();
 
-			MainPage = new MB.Views.MainPage();
-		}
+			MainPage = new NavigationPage(new MB.Views.LoginPage());
+
+
+        }
 
 		protected override void OnStart ()
 		{

@@ -5,10 +5,9 @@
              xmlns:views="clr-namespace:MB.Views"
              x:Class="MB.Views.MainPage">
     <ContentPage.Content>
-        <StackLayout>
-            <ContentView Padding="0,0,0,0" VerticalOptions="FillAndExpand">
-                <Image Source="Default.png" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-            </ContentView>
+        <StackLayout VerticalOptions="Center" Padding="40,20,40,20">
+            <Image Source="Icon-60@3x.png" WidthRequest="180" HeightRequest="180"  />
+            <Button x:Name="LogoutBtn" Text="Logout" Clicked="Logout_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

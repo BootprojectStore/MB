@@ -15,5 +15,11 @@ namespace MB.Views
 		{ 
 			InitializeComponent();
 		}
-	}
+
+        public async Task Logout_Clicked(object sender, EventArgs e)
+        {
+            await Application.Current.MainPage.Navigation.PushAsync(new LoginPage());
+
+        }
+    }
 }
