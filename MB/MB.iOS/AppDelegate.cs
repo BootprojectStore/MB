@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
 using UIKit;
+
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace MB.iOS
 {
@@ -24,6 +27,8 @@ namespace MB.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            AppCenter.Start("567d21de-19c6-4803-af65-dfd8f7eb45cf", typeof(Analytics), typeof(Crashes));
 
             return base.FinishedLaunching(app, options);
         }

@@ -1,6 +1,4 @@
-﻿using Microsoft.AppCenter;
-using Microsoft.AppCenter.Analytics;
-using Microsoft.AppCenter.Crashes;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +20,6 @@ namespace MB
 
 		protected override void OnStart ()
 		{
-            AppCenter.Start("ios=567d21de-19c6-4803-af65-dfd8f7eb45cf;", typeof(Analytics), typeof(Crashes));
 
         }
 
