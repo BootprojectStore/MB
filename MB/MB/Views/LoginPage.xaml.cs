@@ -16,16 +16,11 @@ namespace MB.Views
 		{
            
             InitializeComponent ();
-
-            //var LoginBtn = this.FindByName<Button>("LoginBtn");
-            //LoginBtn.Clicked += Login_Clicked;
-            
-            //App.Current.MainPage.Navigation.PushAsync(new MainPage());
         }
 
         public async Task Login_Clicked(object sender, EventArgs e)
         {
-            //messageLabel.Text = "Try to login";
+            //messageLabel.Text = "Login errors displayed";
 
             await Application.Current.MainPage.Navigation.PushAsync(new MainPage());
         

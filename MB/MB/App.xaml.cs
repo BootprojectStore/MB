@@ -18,8 +18,6 @@ namespace MB
 			InitializeComponent();
 
 			MainPage = new NavigationPage(new MB.Views.LoginPage());
-
-
         }
 
 		protected override void OnStart ()
